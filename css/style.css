@@ -1,0 +1,25 @@
+body{
+  height: 100vh;
+  background-image: linear-gradient(to right, #d16ba5, #d35faa, #d452b0, #d244b8, #cf35c1, #b258de, #8b70f2, #5884ff, #00aaff, #00c9ff, #00e4ff, #5ffbf1);
+}
+.dtm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#output{
+  width: 500px;
+  height: 400px;
+  overflow: auto;
+  background-color: gold !important;
+}
+
+.wrongValue{
+  border: 2px solid red;
+}
+.input-dtm{
+  width: 260px;
+}
